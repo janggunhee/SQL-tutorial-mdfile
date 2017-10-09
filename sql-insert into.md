@@ -25,7 +25,7 @@ VALUES (value1, value2, value3, ...);
 
 ### Demo Database
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo%203.png)
+![](./images/demo%203.png)
 
 
 ## INSERT INTO Example
@@ -38,7 +38,7 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
 ```
 'Customers'테이블의 선택은 다음과 같습니다.
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/insert-into.png)
+![](./images/insert-into.png)
 
 ## Insert Data Only in Specified Columns
 
@@ -50,4 +50,4 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
 INSERT INTO Customers (CustomerName, City, Country)
 VALUES ('Cardinal', 'Stavanger', 'Norway');
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/insert-into2.png)
+![](./images/insert-into2.png)

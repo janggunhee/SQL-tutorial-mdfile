@@ -38,7 +38,7 @@ SELECT * FROM Customers
 WHERE City LIKE 'ber%';
 ```
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/bercity.png)
+![](./images/bercity.png)
 
 다음 SQL 문은 패턴이 'es'인 City가있는 모든 고객을 선택합니다.
 
@@ -55,7 +55,7 @@ WHERE City LIKE '%es%';
 SELECT * FROM Customers
 WHERE City LIKE '_erlin';
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/elin.png)
+![](./images/elin.png)
 
 
 다음 SQL 문은 도시가 "L"로 시작하고 모든 문자, 그 다음에 "n"다음에 문자가오고 "on"이 뒤에 오는 모든 고객을 선택합니다.
@@ -64,7 +64,7 @@ WHERE City LIKE '_erlin';
 SELECT * FROM Customers
 WHERE City LIKE 'L_n_on';
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/l-d-n.png)
+![](./images/l-d-n.png)
 
 ### Using the [charlist] Wildcard
 
@@ -75,7 +75,7 @@ WHERE City LIKE 'L_n_on';
 SELECT * FROM Customers
 WHERE City LIKE '[bsp]%';
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/bsq.png)
+![](./images/bsq.png)
 
 다음 SQL 문은 도시가 'a', 'b'또는 'c'로 시작하는 모든 고객을 선택합니다.
 ```sql
@@ -97,4 +97,4 @@ or
 SELECT * FROM Customers
 WHERE City NOT LIKE '[bsp]%';
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/not%20sss.png)
+![](./images/not%20sss.png)

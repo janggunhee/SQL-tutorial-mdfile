@@ -16,7 +16,7 @@ WHERE condition;
 
 ### Demo Database
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo-4.png)
+![](./images/demo-4.png)
 
 ### UPDATE Table
 
@@ -27,7 +27,7 @@ UPDATE Customers
 SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
 WHERE CustomerID = 1;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/update%20table.png)
+![](./images/update%20table.png)
 
 ### UPDATE Multiple Records
 
@@ -40,7 +40,7 @@ UPDATE Customers
 SET ContactName='Juan'
 WHERE Country='Mexico';
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/update%20multie.png)
+![](./images/update%20multie.png)
 
 #### Update 할때 주의!! 
 
@@ -51,4 +51,4 @@ UPDATE Customers
 SET ContactName='Juan';
 Try it Yourself »
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/update%20careful.png)
+![](./images/update%20careful.png)

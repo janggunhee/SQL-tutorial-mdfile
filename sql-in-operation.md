@@ -29,7 +29,7 @@ WHERE column_name IN (SELECT STATEMENT);
 SELECT * FROM Customers
 WHERE Country IN ('Germany', 'France', 'UK');
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/gln%20in%20operation.png)
+![](./images/gln%20in%20operation.png)
 
 다음 SQL 문은 'Germany', 'France'또는 'UK'에 있지 않은 모든 고객을 선택합니다.
 
@@ -44,4 +44,4 @@ SELECT * FROM Customers
 WHERE Country IN (SELECT Country FROM Suppliers);
 ```
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/in%20operation.png)
+![](./images/in%20operation.png)

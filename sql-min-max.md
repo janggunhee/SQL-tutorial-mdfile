@@ -18,7 +18,7 @@ SELECT MAX(column_name)
 FROM table_name
 WHERE condition;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo-7.png)
+![](./images/demo-7.png)
 
 ### MIN() Example
 
@@ -29,7 +29,7 @@ SELECT MIN(Price) AS SmallestPrice
 FROM Products;
 ```
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/smaller.png)
+![](./images/smaller.png)
 
 ### MAX() Example
 
@@ -40,6 +40,6 @@ SELECT MAX(Price) AS LargestPrice
 FROM Products;
 ```
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/max.png)
+![](./images/max.png)
 
 

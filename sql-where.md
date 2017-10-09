@@ -17,7 +17,7 @@ WHERE condition;
 
 ### demo database
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo-database.png)
+![](./images/demo-database.png)
 
 ## WHERE Clause Example
 
@@ -28,7 +28,7 @@ SELECT * FROM Customers
 WHERE Country='Mexico';
 ```
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/mexico.png)
+![](./images/mexico.png)
 
 ## WHERE 절 연산자
 

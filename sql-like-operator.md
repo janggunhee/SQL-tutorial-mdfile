@@ -30,7 +30,7 @@ WHERE columnN LIKE pattern;
 
 #### Demo Database
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo%205.png)
+![](./images/demo%205.png)
 
 
 ### SQL LIKE Examples
@@ -41,7 +41,7 @@ WHERE columnN LIKE pattern;
 SELECT * FROM Customers
 WHERE CustomerName LIKE 'a%';
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/a%20customer.png)
+![](./images/a%20customer.png)
 
 다음 SQL 문은 CustomerName이 'a'로 끝나는 모든 고객을 선택합니다.
 
@@ -55,7 +55,7 @@ WHERE CustomerName LIKE '%a';
 SELECT * FROM Customers
 WHERE CustomerName LIKE '%or%';
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/or%20customer.png)
+![](./images/or%20customer.png)
 
 다음 SQL 문은 두 번째 위치에 'r'이 있는 CustomerName을 가진 모든 고객을 선택합니다.
 
@@ -82,5 +82,5 @@ WHERE ContactName LIKE 'a%o';
 SELECT * FROM Customers
 WHERE CustomerName NOT LIKE 'a%';
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/not%20a.png)
+![](./images/not%20a.png)
 

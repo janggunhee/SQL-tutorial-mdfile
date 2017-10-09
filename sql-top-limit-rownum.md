@@ -10,11 +10,11 @@ SELECT TOP 절은 수천 개의 레코드가있는 큰 테이블에서 유용합
 >Note: 모든 데이터베이스 시스템이 SELECT TOP 절을 지원하는 것은 아닙니다. 
 >MySQL은 제한된 수의 레코드를 선택하기 위해 LIMIT 절을 지원하고 Oracle은 ROWNUM을 사용합니다.
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/select%20top.png)
+![](./images/select%20top.png)
 
 ### Demo Database
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo%20-6.png)
+![](./images/demo%20-6.png)
 
 ## SQL TOP, LIMIT and ROWNUM Examples
 
@@ -23,7 +23,7 @@ SELECT TOP 절은 수천 개의 레코드가있는 큰 테이블에서 유용합
 ```sql
 SELECT TOP 3 * FROM Customers;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/select%20top3.png)
+![](./images/select%20top3.png)
 
 다음 SQL 문은 LIMIT 절을 사용하는 동일한 예제를 보여줍니다.
 
@@ -31,7 +31,7 @@ SELECT TOP 3 * FROM Customers;
 SELECT * FROM Customers
 LIMIT 3;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/select-limit.png)
+![](./images/select-limit.png)
 
 다음 SQL 문은 ROWNUM을 사용하는 동일한 예제를 보여줍니다.
 

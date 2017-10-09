@@ -15,7 +15,7 @@ WHERE condition;
 
 ### Demo Database
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo%205.png)
+![](./images/demo%205.png)
 
 ### SQL DELETE Example
 
@@ -25,7 +25,7 @@ WHERE condition;
 DELETE FROM Customers
 WHERE CustomerName='Alfreds Futterkiste';
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/delets%20customer.png)
+![](./images/delets%20customer.png)
 
 ### Delete All Records
 

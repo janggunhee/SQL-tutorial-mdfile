@@ -23,7 +23,7 @@ FROM table_name AS alias_name;
 ```
 #### Demo Database
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo%2012.png)
+![](./images/demo%2012.png)
 
 ## Alias for Columns Examples
 
@@ -41,7 +41,7 @@ FROM Customers;
 SELECT CustomerName AS Customer, ContactName AS [Contact Person]
 FROM Customers;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/address-1.png)
+![](./images/address-1.png)
 
 다음 SQL 문은 네 개의 열 (Address, PostalCode, City 및 Country)을 결합하는 'Address'라는 별칭을 만듭니다.
 
@@ -49,7 +49,7 @@ FROM Customers;
 SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address
 FROM Customers;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/address.png)
+![](./images/address.png)
 
 ## Alias for Tables Example
 
@@ -62,7 +62,7 @@ FROM Customers AS c, Orders AS o
 WHERE c.CustomerName="Around the Horn" AND c.CustomerID=o.CustomerID;
 ```
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/around.png)
+![](./images/around.png)
 
 다음 SQL 문은 위와 동일하지만 별칭이 없습니다.
 
@@ -71,7 +71,7 @@ SELECT Orders.OrderID, Orders.OrderDate, Customers.CustomerName
 FROM Customers, Orders
 WHERE Customers.CustomerName="Around the Horn" AND Customers.CustomerID=Orders.CustomerID;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/around%202.png)
+![](./images/around%202.png)
 
 
 #### 별칭은 다음과 같은 경우에 유용 할 수 있습니다. 

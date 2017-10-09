@@ -21,7 +21,7 @@ SELECT * FROM Customers
 ORDER BY Country;
 ```
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/sorted-data.png)
+![](./images/sorted-data.png)
 
 ### ORDER BY DESC Example
 
@@ -31,7 +31,7 @@ ORDER BY Country;
 SELECT * FROM Customers
 ORDER BY Country DESC;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/sorted-down.png)
+![](./images/sorted-down.png)
 
 ### ORDER BY Several Columns Example
 
@@ -41,7 +41,7 @@ ORDER BY Country DESC;
 SELECT * FROM Customers
 ORDER BY Country, CustomerName;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/sorted-country-customer.png)
+![](./images/sorted-country-customer.png)
 
 
 ### ORDER BY Several Columns Example DESC
@@ -52,5 +52,5 @@ ORDER BY Country, CustomerName;
 SELECT * FROM Customers
 ORDER BY Country ASC, CustomerName DESC;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/sorted-DESC.png)
+![](./images/sorted-DESC.png)
 

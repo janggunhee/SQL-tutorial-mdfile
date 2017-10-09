@@ -36,7 +36,7 @@ WHERE NOT condition;
 
 ### Demo Database
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo-1.png)
+![](./images/demo-1.png)
 
 ### AND Example
 
@@ -46,7 +46,7 @@ WHERE NOT condition;
 SELECT * FROM Customers
 WHERE Country='Germany' AND City='Berlin';
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/german.png)
+![](./images/german.png)
 
 ### OR Example
 
@@ -57,7 +57,7 @@ SELECT * FROM Customers
 WHERE City='Berlin' OR City='München';
 ```
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/german-mun.png)
+![](./images/german-mun.png)
 
 ### NOT Example
 
@@ -67,7 +67,7 @@ WHERE City='Berlin' OR City='München';
 SELECT * FROM Customers
 WHERE NOT Country='Germany';
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/not%20german.png)
+![](./images/not%20german.png)
 
 ### AND, OR 및 NOT 연산자 결합
 
@@ -79,7 +79,7 @@ WHERE NOT Country='Germany';
 SELECT * FROM Customers
 WHERE Country='Germany' AND (City='Berlin' OR City='München');
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/combine.png)
+![](./images/combine.png)
 
 다음 SQL 문은 country가 'Germany'가 아니며 'USA'가 아닌 'Customers'의 모든 필드를 선택합니다.
 
@@ -87,4 +87,4 @@ WHERE Country='Germany' AND (City='Berlin' OR City='München');
 SELECT * FROM Customers
 WHERE NOT Country='Germany' AND NOT Country='USA';
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/not%20german%20usa.png)
+![](./images/not%20german%20usa.png)

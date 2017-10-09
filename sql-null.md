@@ -28,7 +28,7 @@ SELECT column_names
 FROM table_name
 WHERE column_name IS NOT NULL;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo4.png)
+![](./images/demo4.png)
 
 'Persons'테이블의 'Address'열이 선택 사항이라고 가정합니다. 'Address'에 값이 없는 레코드가 삽입되면 'Address'열은 NULL 값으로 저장됩니다.
 
@@ -40,4 +40,4 @@ WHERE column_name IS NOT NULL;
 SELECT LastName, FirstName, Address FROM Persons
 WHERE Address IS NOT NULL;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/isnotnull.png)
+![](./images/isnotnull.png)

@@ -14,7 +14,7 @@ WHERE column_name BETWEEN value1 AND value2;
 
 #### Demo Database
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo10.png)
+![](./images/demo10.png)
 
 
 
@@ -26,7 +26,7 @@ WHERE column_name BETWEEN value1 AND value2;
 SELECT * FROM Products
 WHERE Price BETWEEN 10 AND 20;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/between.png)
+![](./images/between.png)
 
 ### NOT BETWEEN Example
 
@@ -46,7 +46,7 @@ SELECT * FROM Products
 WHERE (Price BETWEEN 10 AND 20)
 AND NOT CategoryID IN (1,2,3);
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/between%20in.png)
+![](./images/between%20in.png)
 
 
 ### BETWEEN Text Values Example
@@ -58,8 +58,8 @@ SELECT * FROM Products
 WHERE ProductName BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
 ORDER BY ProductName;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/between%20in2.png)
-![](///Users/janggunhee/projects/md-file/sql-md/images/btween%20in%203.png)
+![](./images/between%20in2.png)
+![](./images/btween%20in%203.png)
 
 
 
@@ -70,10 +70,10 @@ ORDER BY ProductName;
 
 #### Sample Table
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo%2011.png)
+![](./images/demo%2011.png)
 
 ```sql
 SELECT * FROM Orders
 WHERE OrderDate BETWEEN #07/04/1996# AND #07/09/1996#;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/sample%20table.png)
+![](./images/sample%20table.png)

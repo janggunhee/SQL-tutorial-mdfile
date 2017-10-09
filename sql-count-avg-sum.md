@@ -29,7 +29,7 @@ WHERE condition;
 
 #### Demo Database
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo-8.png)
+![](./images/demo-8.png)
 
 ### COUNT() Example
 
@@ -39,7 +39,7 @@ WHERE condition;
 SELECT COUNT(ProductID)
 FROM Products;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/count-.png)
+![](./images/count-.png)
 
 ### AVG() Example
 
@@ -49,13 +49,13 @@ FROM Products;
 SELECT AVG(Price)
 FROM Products;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/avg.png)
+![](./images/avg.png)
 
 
 #### Demo Database
 아래는 Northwind 샘플 데이터베이스의 'OrderDetails'표에서 선택한 항목입니다.
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo-9.png)
+![](./images/demo-9.png)
 
 ### SUM() Example
 
@@ -63,4 +63,4 @@ FROM Products;
 SELECT SUM(Quantity)
 FROM OrderDetails;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/sum.png)
+![](./images/sum.png)

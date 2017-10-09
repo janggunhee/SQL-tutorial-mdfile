@@ -49,7 +49,7 @@ RDBMS의 데이터는 테이블이라는 데이터베이스 객체에 저장됩�
 ###### Below is a selection from the "Customers" table:
 
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/sql-sample.png)
+![](./images/sql-sample.png)
 
 위의 표에는 다섯 개의 레코드 (각 고객 당 하나)와 일곱 개의 열 (CustomerID, CustomerName, ContactName, Address, City, PostalCode 및 Country)이 들어 있습니다.
 

@@ -19,7 +19,7 @@ SELECT * FROM table_name;
 
 ## Demo Database
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo-database.png)
+![](./images/demo-database.png)
 
 column은 `,`로 구별하며 순서는 기재한 대로 나온다.
 
@@ -30,14 +30,14 @@ column은 `,`로 구별하며 순서는 기재한 대로 나온다.
 ```sql
 SELECT CustomerName, City FROM Customers;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/select-result.png)
+![](./images/select-result.png)
 
 ## SELECT * Example
 
 ```sql
 SELECT * FROM Customers;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/select-from.png)
+![](./images/select-from.png)
 
 필드를 다 선택하고 싶으면 `*` 을 이용한다. 
 
@@ -56,7 +56,7 @@ FROM table_name;
 
 ### Demo Database
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/demo-1.png)
+![](./images/demo-1.png)
 
 ## SELECT Example
 
@@ -65,7 +65,7 @@ FROM table_name;
 ```
 SELECT Country FROM Customers;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/select-from2.png)
+![](./images/select-from2.png)
 
 이제 DISTINCT 키워드를 위의 SELECT 문과 함께 사용하여 결과를 봅시다.
 
@@ -74,14 +74,14 @@ SELECT Country FROM Customers;
 ```
 SELECT DISTINCT Country FROM Customers;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/count-country.png)
+![](./images/count-country.png)
 
 다음 SQL 문은 서로 다른 (별개의) customer의 국가 수(count)를 나열합니다.
 
 ```
 SELECT COUNT(DISTINCT Country) FROM Customers;
 ```
-![](///Users/janggunhee/projects/md-file/sql-md/images/count-distinc.png)
+![](./images/count-distinc.png)
 
 중복적용도 가능하다.
 
@@ -90,4 +90,4 @@ SELECT Count(*) AS DistinctCountries
 FROM (SELECT DISTINCT Country FROM Customers);
 ```
 
-![](///Users/janggunhee/projects/md-file/sql-md/images/count-2.png)
+![](./images/count-2.png)
