@@ -2,7 +2,7 @@
 
 **SELECT** 문은 데이터베이스에서 data를 선택하는 데 사용됩니다. 
 
-return된 data는 table에 저장됩니다.result-set이라고 부른다.
+return된 data는 table에 저장됩니다. result-set이라고 부른다.
 
 ### SELECT Syntax
 
@@ -43,7 +43,7 @@ SELECT * FROM Customers;
 
 ## SQL SELECT DISTINCT
 
-테이블 내에서 열은 종종 많은 중복 값을 포함합니다. 때로는 서로 다른 (	고유한) 값만 나열하려고한다.
+테이블 내에서 열은 종종 많은 중복 값을 포함합니다. 때로는 서로 다른 (고유한) 값만 나열하려고한다.
 
 **SELECT DISTINCT** 문은 고유한 (다른) 값만 반환하는 데 사용됩니다.
 

@@ -19,7 +19,7 @@ VALUES (value1, value2, value3, ...);
 `INSERT INTO` 구문은 다음과 같습니다.
 
 ```sql
- INSERT INTO table_name
+INSERT INTO table_name
 VALUES (value1, value2, value3, ...);
 ```
 
